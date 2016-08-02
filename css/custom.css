@@ -1,0 +1,44 @@
+#headshot {
+	height: 235px;
+	width: 250px;
+	border-radius: 100%;
+	margin-top: -240px;
+	z-index: 10 !important;
+	position: relative;
+}
+
+.text {
+	text-align: left;
+}
+
+#container {
+	margin-top: 30px;
+}
+
+#container .mix{
+    display: none;
+}
+
+.btn {
+	background-color: #FF5252;
+}
+
+.btn:hover, .btn:focus {
+	background-color: #8b0000;
+}
+
+.projectpic {
+	min-height: 200px;
+}
+
+#contact ul p {
+	color: white;
+}
+
+#secondp {
+	margin-top: -15px;
+}
+
+#work .container {
+	text-align: center;
+}
