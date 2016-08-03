@@ -2,7 +2,7 @@
 	height: 235px;
 	width: 250px;
 	border-radius: 100%;
-	margin-top: -240px;
+	margin-top: -200px;
 	z-index: 10 !important;
 	position: relative;
 }
@@ -20,15 +20,12 @@
 }
 
 .btn {
-	background-color: #FF5252;
-}
-
-.btn:hover, .btn:focus {
-	background-color: #8b0000;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .projectpic {
-	min-height: 200px;
+	min-height: 300px;
 }
 
 #contact ul p {
@@ -42,3 +39,148 @@
 #work .container {
 	text-align: center;
 }
+
+.skills {
+	margin-bottom: 40px;
+}
+
+/*COLORSSSSSSS*/
+
+#blue {
+	color: #3F51B5 !important;
+}
+
+#red {
+	color: #F44336 !important;
+}
+
+#yellow {
+	color: #FFEB3B !important
+}
+
+#green {
+	color: #4CAF50 !important;
+}
+
+#orange {
+	color: #FF5722 !important;
+}
+
+#brown {
+	color: #795548 !important
+}
+
+#light_blue {
+	color: #00BCD4 !important;
+}
+
+#purple {
+	color: #9C27B0 !important;
+}
+
+/*COLLORSSSSSS WHEN HOVERING*/
+
+#blue:hover {
+	color: #303F9F !important;
+}
+
+#red:hover {
+	color: #D32F2F !important;
+}
+
+#yellow:hover {
+	color: #FBC02D !important
+}
+
+#green:hover {
+	color: #388E3C !important;
+}
+
+#orange:hover {
+	color: #F57C00 !important;
+}
+
+#brown:hover {
+	color: #5D4037 !important
+}
+
+#light_blue:hover {
+	color: #0097A7 !important;
+}
+
+#purple:hover {
+	color: #7B1FA2 !important;
+}
+
+/*END OF COLLORSSSSSSSSSSSSSSSS*/
+
+/*COLORSSSSSSS BUTTONSSSSSSSS*/
+
+#button1 {
+	background-color: #00BCD4 !important;
+}
+
+#button2 {
+	background-color: #FFEB3B !important
+}
+
+#button3 {
+	background-color: #FF5722 !important;
+}
+
+#button4 {
+	background-color: #4CAF50 !important;
+}
+
+#button5 {
+	background-color: #795548 !important
+}
+
+/*COLLORSSSSSS BUTTONSSSSS WHEN HOVERING*/
+
+#button1:hover, #button1:focus {
+	background-color: #0097A7 !important;
+}
+
+#button2:hover, #button2:focus {
+	background-color: #FBC02D !important
+}
+
+#button3:hover, #button3:focus {
+	background-color: #F57C00 !important;
+}
+
+#button4:hover, #button4:focus {
+	background-color: #388E3C !important;
+}
+
+#button5:hover, #button5:focus {
+	background-color: #5D4037 !important
+}
+
+/*END OF COLLORSSSSSSSSSSSSSSSS BUTTONSSSSSSSSSSSSSSSSSS*/
+
+.right {
+	text-align: center;
+}
+
+.header5 {
+	background-color: black;
+	color: white;
+	min-height: 50px;
+	display: table; 
+	min-width: 100%;
+	margin-bottom: 50px;
+}
+
+.header5 h5 {
+	display: table-cell; 
+  	vertical-align: middle; 
+  	text-align: center;
+  	padding: 20px; 
+}
+
+.text_h {
+	padding: 0px !important;
+}
+

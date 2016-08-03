@@ -12,6 +12,7 @@
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link href="css/style.css" type="text/css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -28,15 +29,15 @@
 </div>
 
 <!--Navigation-->
- <div class="navbar-fixed z-depth-1">
+ <div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">Portfolio</a>
+            <a href="#" id="logo-container" class="brand-logo"><span id="red">P</span>ortfolio</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">About</a></li>
-                    <li><a href="#work">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#intro"><span id="green">A</span>bout</a></li>
+                    <li><a href="#work"><span id="light_blue">P</span>ortfolio</a></li>
+                    <li><a href="#contact"><span id="yellow">C</span>ontact</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#intro">About</a></li>
@@ -49,11 +50,14 @@
     </nav>
 </div>
 
+<!--    <span><span id="light_blue">P</span><span id="orange">a</span><span id="yellow">u</span><span id="green">l</span> van <span id="brown">M</span><span id="red">o</span><span id="blue">t</span></b></span>man -->
+
+
 <!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
+<div class="section no-pad-bot z-depth-3" id="index-banner">
     <div class="container">
         <h1 class="text_h center header cd-headline letters type">
-            <span>Paul van Motman</span> 
+            <span><span id="light_blue">P</span>au<span id="orange">l</span> v<span id="yellow">a</span>n <span id="green">M</span>o<span id="blue">t</span></b></span>ma<span id="brown">n</span>
             <span class="cd-words-wrapper waiting">
                 <b class="is-visible">developing</b>
                 <b>creating</b>
@@ -68,30 +72,59 @@
     <div class="container">
         <div class="row">
             <div class="center-align col s12">
-                <img src="img/paulheadshot.jpg" id="headshot">
+                <img src="img/paulheadshot.jpg" id="headshot" class="z-depth-3">
             </div>
             <div  class="col s12">
-                <h2 class="center header text_h2"> STARTING 1ST OF AUGUST I'M SEEKING NEW OPPORTUNITIES </h2> 
+                <h3 class="center header text_h2"> I am looking for career opportunities as a junior developer in Amsterdam </h2> 
             </div>
             <div  class="col s12 m6 l6">
                 <div class="promo promo-example">
-                    <h5 class="promo-caption">Background</h5>
-                    <p class="light">My bachelor International Development Studies has provided me with a solid theoretical foundation in international law, economics, sociology and sustainability, as well as professional and hands-on project management skills and capabilities. During my Master BA: Entrepreurship and Innovation I’ve developed a sophisticated understanding of:</p>
-                    <ul class="light">
-                                <li>- Entrepreneurial decision making</li>
-                                <li>- Innovative business model formulation and evaluation</li>
-                                <li>- New product development and execution strategies</li>
-                                <li>- Team formation and growth</li>
-                                <li>- Financing and launching a new venture</li>
-                            </ul>
+                    <div class="header5 z-depth-2">
+                        <h5 class="promo-caption"><span id="red">A</span>bout me
+                    </div>
+                    <p class="light">
+                        <strong>Graduate in Innovation and International Development gone Digital</strong>
+                    </p>
+                     <p class="light">
+                        I'm part of the B.Startup School Amsterdam, where I have participated in an intensive coding bootcamp by the New York Code + Design Academy. This training gave me the opportunity to gain a good deal of experience in programming in general and in working with JavaScript as a front and back end language in particular.
+                    </p>
+                    <p class="light">
+                        My bachelor International Development Studies has provided me with a solid foundation in international law, economics, sociology and sustainability, as well as professional and hands-on project management skills and capabilities. During my Master BA: Entrepreurship and Innovation I’ve developed a sophisticated understanding of entrepreneurial decision making, innovative business models and new product development 
+                    </p>
+                    <p class="light">
+                        Starting 1st of August I'm seeking new opportunities as a junior developer in Amsterdam. I'm interested in innovative and sustainable tech-startups or social enterprises within the circulair economy or fintech industries. Also I have a high interest in working at digital agencies and working on many different projects using new frameworks and languages. 
+                    </p>
                 </div>
             </div>
-              <div  class="col s12 m6 l6">
+            <div  class="right col s12 m6 l6s">
                 <div class="promo promo-example">
-                    <h5 class="promo-caption">Now</h5>
-                    <p class="light">Now I'm part of the B. Amsterdam Start-up School Amsterdam as a full-stack webdeveloper, becoming an expert in the following fields: HTML5 - CSS3 - JavaScript - jQuery - Node.js - Module Building - APIs - Bootstrap - LESS - Jade - React.js.</p>
-
-                    <p class="light">Starting 1st of August I'm seeking new opportunities as a junior developer in Amsterdam. I'm interested in innovative and sustainable tech-startups or social enterprises within the circulair economy or fintech industries. Also I have a high interest in working at digital agencies and working on many different projects using new frameworks and languages. </p>
+                    <div class="header5 z-depth-2">
+                        <h5 class="promo-caption"><span id="green">S</span>kills</h5>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-html5-plain-wordmark" id="blue"></i>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-css3-plain-wordmark" id="red"></i>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-javascript-plain" id="yellow"></i>
+                    </div>
+                    <div class="col s6 m6 l6">    
+                        <i class="skills devicon-nodejs-plain" id="green"></i>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-jquery-plain-wordmark" id="orange"></i>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-angularjs-plain" id="brown"></i>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-postgresql-plain-wordmark" id="light_blue"></i>
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <i class="skills devicon-sass-original" id="purple"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,66 +134,80 @@
 <!--Work-->
 <div class="section scrollspy" id="work">
     <div class="container">
-        <h2 class="header text_b">Portfolio </h2>
-        <button class="filter waves-effect waves-light btn" data-filter="all">All</button>
-        <button class="filter waves-effect waves-light btn" data-filter=".website">Website</button>
-        <button class="filter waves-effect waves-light btn" data-filter=".thesis">Thesis</button>
-        <button class="filter waves-effect waves-light btn" data-filter=".film">Film</button>
-        <button class="filter waves-effect waves-light btn" data-filter=".other">Other</button>
+        <div  class="col s12">
+            <h3 class="center header text_h2"> Portfolio </h2> 
+        </div>        
+        <button class="filter waves-effect waves-light btn" id="button1" data-filter="all">All</button>
+        <button class="filter waves-effect waves-light btn" id="button2" data-filter=".website">Website</button>
+        <button class="filter waves-effect waves-light btn" id="button3" data-filter=".thesis">Thesis</button>
+        <button class="filter waves-effect waves-light btn" id="button4" data-filter=".film">Film</button>
+        <button class="filter waves-effect waves-light btn" id="button5" data-filter=".other">Other</button>
         <div class="row" id=container>
-            <div class="mix website col s12 m4 l4">
+            <div class="mix website col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project1.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Guestlist app: Guesty <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Github repo</a></p>
+                        <p><a href="#"><span id="light_blue">Github repo</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Guestlist app: Guesty<i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                        <p>
+                            Together with two teammembers of the BSSA we've created Guesty: a guestlist management application. It's unique in the sense that it integrates events of facebook with the attendancy list of the app. Only when people have clicked on attend on facebook, they can end up on the guestlist. This provides more insight for event organisers in their guests and extends their reach.
+                        </p>
+                        <p>
+                            Deployment on Heroku coming up!
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="mix website col s12 m4 l4">
+            <div class="mix website col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project2.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Network app: Mentor <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Github repo</a></p>
+                        <p><a href="#"><span id="light_blue">Github repo</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Network app: Mentor <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                        <p>
+                            As my final project for the BSSA I've created a Mentoring app. It's aim is to connect students and recent graduates with young proffesionals in the same workfield, whom have been succesfull for a couple of years. It's build as a peer-to-peer platform, where a mentee can search for the type of mentor he likes and make a booking. During a meeting, the mentor can give advice on which skills to acquire, which companies to focus on and share relevant people within his network.
+                        </p>
+                        <p>
+                            Deployment on Heroku coming up!
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="mix website col s12 m4 l4">
+            <div class="mix website col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project3.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Website for Scarf<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Link</a></p>
+                        <p><a href="#"><span id="light_blue">Link</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Website for Scarf<i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                        <p>SCARF is a charity committed to providing clothing and aid to refugees of war (Syrian, Afghan, Iraqi) at various 'refugee-points' in Europe where there is most need. SCARF also aims to create a sense of development and movement in the lives of refugees, by offering workshops and creative activities in Greece.</p>
+
+                        <p>Together with a teammember of the BSSA we've created their website and helped to contribute to their awesome work!</p>
                     </div>
                 </div>
             </div>
-            <div class="mix thesis col s12 m4 l4">
+            <div class="mix thesis col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project4.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Master thesis <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Pdf</a></p>
+                        <p><a href="#"><span id="light_blue">Pdf</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Master thesis <i class="mdi-navigation-close right"></i></span>
@@ -168,14 +215,14 @@
                     </div>
                 </div>
             </div>
-            <div class="mix thesis col s12 m4 l4">
+            <div class="mix thesis col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project5.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Bachelor thesis<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Pdf</a></p>
+                        <p><a href="#"><span id="light_blue">Pdf</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Bachelor thesis <i class="mdi-navigation-close right"></i></span>
@@ -183,14 +230,14 @@
                     </div>
                 </div>
             </div>
-            <div class="mix film col s12 m4 l4">
+            <div class="mix film col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project6.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Hangman <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Imdb</a></p>
+                        <p><a href="#"><span id="light_blue">Imdb</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Hangman <i class="mdi-navigation-close right"></i></span>
@@ -212,7 +259,7 @@
                 <ul>
                     <li>
                         <p>
-                            Any questions or queries? 
+                            Want to work with me? Do not hesitate to contact me:
                         </p>
                         <p id="secondp">
                             <strong>pcvanmotman@gmail.com</strong>
@@ -220,17 +267,17 @@
                     </li>
                     <li>
                         <a class="white-text" href="https://github.com/PaulvanMotman">
-                            <i class="small fa fa-github-square white-text"></i> Github
+                            <i class="small fa fa-github-square white-text" id="yellow"></i> Github
                         </a>
                     </li>
                     <li>
                         <a class="white-text" href="https://www.linkedin.com/in/paulvanmotman">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
+                            <i class="small fa fa-linkedin-square white-text" id="light_blue"></i> Linkedin
                         </a>
                     </li>
                     <li>
                         <a class="white-text" href="https://www.facebook.com/paul.vanmotman">
-                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+                            <i class="small fa fa-facebook-square white-text" id="blue"></i> Facebook
                         </a>
                     </li>
                 </ul>
@@ -239,7 +286,7 @@
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-            Made by <a class="white-text" href="https://paulvanmotman.com">Paul van Motman</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+            Made by <a class="white-text" href="https://paulvanmotman.com" id="green">Paul van Motman</a>. Thanks to <a class="white-text" id="red" href="http://materializecss.com/">materializecss</a>
         </div>
     </div>
 </footer>
