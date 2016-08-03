@@ -1,3 +1,5 @@
 $(function () {
-    $('#container').mixItUp();
+	$('#container').mixItUp();
 });
+
+

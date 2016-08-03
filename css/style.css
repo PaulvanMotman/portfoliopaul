@@ -1,9 +1,5 @@
 /* Custom Stylesheet */
-/**
- *
- * Made By Joash Pereira
- * Thanks for MaterializeCSS.com
- */
+
 
 .default_color{background-color: black !important}
 
@@ -13,7 +9,7 @@
     padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
+#intro, #work, #team {padding-top: 1rem;}
 
 /* 632px*/
 
@@ -64,7 +60,7 @@
 
 .card-content a:hover {color: #757575;}
 
-#work, #team{background: rgb(247, 247, 247);}
+/*#work, #team{background: rgb(247, 247, 247);}*/
 
 .text_pink{color:#EF9A9A;}
 

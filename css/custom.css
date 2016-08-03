@@ -2,7 +2,7 @@
 	height: 235px;
 	width: 250px;
 	border-radius: 100%;
-	margin-top: -200px;
+	margin-top: -160px;
 	z-index: 10 !important;
 	position: relative;
 }
@@ -44,6 +44,52 @@
 	margin-bottom: 40px;
 }
 
+
+/*SPECIALCOLLORSSSSSSSS*/
+
+#button1::first-letter {
+	color: #00BCD4 !important;
+}
+
+#button1:focus:first-letter, #button1:hover:first-letter {
+	color: white !important;
+}
+
+#button2::first-letter{
+	color: #FFEB3B !important;
+}
+
+#button2:focus:first-letter, #button2:hover:first-letter {
+	color: white !important;
+}
+
+#button3::first-letter{
+	color: #FF5722 !important;
+}
+
+#button3:focus:first-letter, #button3:hover:first-letter {
+	color: white !important;
+}
+
+#button4::first-letter{
+	color: #4CAF50 !important;
+}
+
+#button4:focus:first-letter, #button4:hover:first-letter {
+	color: white !important;
+}
+
+#button5::first-letter{ 
+	color: #9C27B0 !important;
+}
+
+#button5:focus:first-letter, #button5:hover:first-letter {
+	color: white !important;
+}
+
+
+/*END OF COLLORSSSSSSSSSSSSSSSS BUTTONSSSSSSSSSSSSSSSSSS*/
+
 /*COLORSSSSSSS*/
 
 #blue {
@@ -55,7 +101,7 @@
 }
 
 #yellow {
-	color: #FFEB3B !important
+	color: #FFEB3B !important;
 }
 
 #green {
@@ -67,7 +113,7 @@
 }
 
 #brown {
-	color: #795548 !important
+	color: #795548 !important;
 }
 
 #light_blue {
@@ -89,7 +135,7 @@
 }
 
 #yellow:hover {
-	color: #FBC02D !important
+	color: #FBC02D !important;
 }
 
 #green:hover {
@@ -101,7 +147,7 @@
 }
 
 #brown:hover {
-	color: #5D4037 !important
+	color: #5D4037 !important;
 }
 
 #light_blue:hover {
@@ -117,48 +163,58 @@
 /*COLORSSSSSSS BUTTONSSSSSSSS*/
 
 #button1 {
-	background-color: #00BCD4 !important;
+	color: white !important;
 }
 
 #button2 {
-	background-color: #FFEB3B !important
+	color: white!important;
 }
 
 #button3 {
-	background-color: #FF5722 !important;
+	color: white !important;
 }
 
 #button4 {
-	background-color: #4CAF50 !important;
+	color: white !important;
 }
 
 #button5 {
-	background-color: #795548 !important
+	color: white !important;
 }
 
 /*COLLORSSSSSS BUTTONSSSSS WHEN HOVERING*/
 
 #button1:hover, #button1:focus {
 	background-color: #0097A7 !important;
+	color: white !important;
 }
 
 #button2:hover, #button2:focus {
-	background-color: #FBC02D !important
+	background-color: #FBC02D !important;
+	color: white !important;
 }
 
 #button3:hover, #button3:focus {
 	background-color: #F57C00 !important;
+	color: white !important;
 }
 
 #button4:hover, #button4:focus {
 	background-color: #388E3C !important;
+	color: white !important;
 }
 
 #button5:hover, #button5:focus {
-	background-color: #5D4037 !important
+	background-color: #7B1FA2 !important;
+	color: white !important;
 }
 
-/*END OF COLLORSSSSSSSSSSSSSSSS BUTTONSSSSSSSSSSSSSSSSSS*/
+.btn {
+	background-color: black !important;
+}
+
+
+/*END OF SPECIALLLLLLLLLL COLLORSSSSSSSSSSSSSSSS*/
 
 .right {
 	text-align: center;
@@ -184,3 +240,10 @@
 	padding: 0px !important;
 }
 
+.footer-copyright {
+	padding-bottom: 280px !important;
+}
+
+.card-reveal {
+	text-align: left !important;
+}
