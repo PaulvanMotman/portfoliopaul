@@ -2,14 +2,16 @@
 <html>
 <head>
     <title>Paul van Motman | Portfolio</title>
-    <link rel="icon" href="img/icon.png">
-    <meta name="description" content="Paul Motman Portfolio Developer">
-    <meta name="keywords" content="Paul van Motman, Paul, van Motman, Developer, ondernemer">
+    <meta property="og:url"                content="http://www.paulvanmotman.com" />
+    <meta property="og:type"               content="Portfolio" />
+    <meta property="og:title"              content="Paul van Motman | Portfolio" />
+    <meta property="og:description"        content="Paul van Motman, Paul, van Motman, Developer, front-end, back-end, ontwikkelaar, programmeur, software, application, app, website, design, ondernemer, entrepreneur" />
+    <meta property="og:image"              content="http://www.paulvanmotman.com/img/website.png" />
     <meta name="author" content="Paul van Motman">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
 
+    <link rel="icon" href="img/icon.png">
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -17,6 +19,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
+
 <body id="top" class="scrollspy">
 
 <!-- Pre Loader -->
@@ -90,7 +93,7 @@
                         My bachelor International Development Studies has provided me with a solid foundation in international law, economics, sociology and sustainability, as well as professional and hands-on project management skills and capabilities. During my Master BA: Entrepreurship and Innovation I’ve developed a sophisticated understanding of entrepreneurial decision making, innovative business models and new product development 
                     </p>
                     <p class="light">
-                        Starting 1st of August I'm seeking new opportunities as a junior developer in Amsterdam. I'm interested in innovative and sustainable tech-startups or social enterprises within the circulair economy or fintech industries. Also I have a high interest in working at digital agencies and working on many different projects using new frameworks and languages. 
+                        Starting 1st of August I'm seeking new opportunities as a junior developer in Amsterdam. I'm interested in innovative and sustainable tech-startups or social enterprises within sustainability, the circulair economy or fin-tech. Also I have a high interest in working at digital agencies and working on many different projects using new frameworks and languages. 
                     </p>
                 </div>
             </div>
@@ -134,14 +137,28 @@
     <div class="container">
          <div class="header5 z-depth-2">
             <h5 class="promo-caption"><span id="blue">P</span>ortfolio
-        </div>       
-        <button class="filter waves-effect waves-light btn" id="button1" data-filter="all">All</button>
-        <button class="filter waves-effect waves-light btn" id="button2" data-filter=".website">Website</button>
-        <button class="filter waves-effect waves-light btn" id="button3" data-filter=".thesis">Thesis</button>
-        <button class="filter waves-effect waves-light btn" id="button4" data-filter=".film">Film</button>
-        <button class="filter waves-effect waves-light btn" id="button5" data-filter=".other">Other</button>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l6 left-align">  
+                <p class="light">
+                    Lately I've been working on two apps during the NYCDA class, Mentor and Guesty. Both are build on Node.js, Express, Postgresql and JQuery. Check out their details below. Also I've created the website for the non-profit Scarf. At the moment I'm working on an app build with Angular, more info coming soon.
+                </p>
+            </div>
+               <div class="col s12 m6 l6 left-align" id="space">  
+                 <p class="light">
+                    You can find both my theses as well, feel free to take a look. I wrote my bachelor thesis on community governance in the context of common-pool resources. My master thesis I've written on how to engage employees of an organisation with sustainability. Curious why I'm listed on imdb? Check out others!
+                </p>
+            </div>
+            <div class="col s12 m12 l12">       
+                <button class="filter waves-effect waves-light btn" id="button1" data-filter=".all">All</button>
+                <button class="filter waves-effect waves-light btn" id="button2" data-filter=".app">Apps</button>
+                <button class="filter waves-effect waves-light btn" id="button3" data-filter=".website">Websites</button>
+                <button class="filter waves-effect waves-light btn" id="button4" data-filter=".thesis">Theses</button>
+                <button class="filter waves-effect waves-light btn" id="button5" data-filter=".other">Others</button>
+            </div>
+        </div>
         <div class="row" id=container>
-            <div class="mix website col s12 m6 l6">
+            <div class="mix all app col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project1.png">
@@ -153,7 +170,7 @@
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Guestlist app: Guesty<i class="mdi-navigation-close right"></i></span>
                         <p>
-                            Together with two teammembers of the BSSA we've created Guesty: a guestlist management application. It's unique in the sense that it integrates events of facebook with the attendancy list of the app. 
+                            Together with two teammembers of the NYCDA we've created Guesty: a guestlist management application. It's unique in the sense that it integrates events of facebook with the attendancy list of the app. 
                         </p>
                         <p>
                             Only when people have clicked on attend on facebook, they can end up on the guestlist. This provides more insight for event organisers in their guests and extends their reach.
@@ -165,7 +182,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mix website col s12 m6 l6">
+            <div class="mix all app col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project2.png">
@@ -177,7 +194,7 @@
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Network app: Mentor <i class="mdi-navigation-close right"></i></span>
                         <p>
-                            As my final project for the BSSA I've created a Mentoring app. It's aim is to connect students and recent graduates with young proffesionals in the same workfield, whom have been succesfull for a couple of years. 
+                            As my final project for the NYCDA I've created a Mentoring app. It's aim is to connect students and recent graduates with young proffesionals in the same workfield, whom have been succesfull for a couple of years. 
                         </p>
                         <p>
                             It's build as a peer-to-peer platform, where a mentee can search for the type of mentor he likes and make a booking. During a meeting, the mentor can give advice on which skills to acquire, which companies to focus on and share relevant people within his network.
@@ -189,7 +206,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mix website col s12 m6 l6">
+            <div class="mix all website col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project3.png">
@@ -207,13 +224,13 @@
                             SCARF also aims to create a sense of development and movement in the lives of refugees, by offering workshops and creative activities in Greece.
                         </p>
                         <p>
-                            Together with a teammember of the BSSA we've created their website and helped to contribute to their awesome work!
+                            Together with a teammember of the NYCDA we've created their website and helped to contribute to their awesome work!
                         </p>
                         <p><a target="_blank" href="http://www.scarf-aid.com/"><span id="light_blue"><i class="fa fa-external-link" aria-hidden="true"></i> Link</span></a></p>
                     </div>
                 </div>
             </div>
-            <div class="mix thesis col s12 m6 l6">
+            <div class="mix all thesis col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project4.png">
@@ -240,7 +257,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mix thesis col s12 m6 l6">
+            <div class="mix all thesis col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project5.png">
@@ -255,37 +272,37 @@
                             This thesis is a literature review that investigates the community based response to 'the tragedy of the commons'.
                         </p> 
                         <p>
-                            A tragedy of the commons is the temptation to overextract resource units from a resource system shared with others, followed by the destruction of the resource environment. An important dilemma in todays world, since it may occur at all kinds of systems and practices through time and space. Examples of problems are the overpopulation of the world, climate policies and the problems of acid rain. 
+                            A tragedy of the commons is the temptation to overextract resource units from a resource system shared with others, followed by the destruction of the resource environment. An important dilemma in todays world, since it can occur at all kinds of systems and practices through time and space. Examples of problems are the overpopulation of the world, climate policies and the problems of acid rain. 
                         </p>
                         <p>
-                            Because of this relevance, literature on how to successfully manage common pool resources has grown significantly in the last twenty years. Since a number of market and state oriented policies failed, a community oriented approach became more popular. The aim of this thesis is to find out how community governance is able to solve a tragedy of the commons.
+                            Because of this relevance, literature on how to successfully manage common pool resources has grown significantly in the last twenty years. Since a number of market and state oriented policies failed, a community oriented approach became more popular. The aim of this thesis is to find out how community governance is able to solve this tragedy of the commons.
                         </p>
                         <p><a target="_blank" href="https://drive.google.com/file/d/0B-7a5EqlvIRhaUhKZmlmRmRQU0k/view?usp=sharing"><span id="light_blue"><i class="fa fa-external-link" aria-hidden="true"></i> Pdf</span></a></p>
 
                     </div>
                 </div>
             </div>
-            <div class="mix film col s12 m6 l6">
+            <div class="mix other col s12 m6 l6">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator projectpic" src="img/project6.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Hangman <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a target="_blank" href="https://www.facebook.com/hangmanthemovie"><span id="light_blue"><i class="fa fa-external-link" aria-hidden="true"></i> Imdb</span></a></p>
+                        <p><a target="_blank" href="http://www.imdb.com/title/tt5432722/?ref_=nm_knf_t1"><span id="light_blue"><i class="fa fa-external-link" aria-hidden="true"></i> Imdb</span></a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Hangman <i class="mdi-navigation-close right"></i></span>
                         <p>
-                            Since I'm a enormous movie lover myself, I didn't had to think twice when my friend Steve Gijrath, movie-maker, asked me to help shoot his graduation film 'Hangman'. 
+                            Since I'm an enormous movie geek myself, I didn't had to think twice when my friend Steve Gijrath, movie-maker, asked me to help shoot his graduation film 'Hangman'. 
                         </p>
                         <p>
-                            He assigined me with the role of the line producer. This entails organising the production in the broadest sense: provide necessary facilities, equipment and people, in the right place at the right time. I also managed the budget and time restrictions. 
+                            He named me line producer. This meant I was responsible for organising the production in the broadest sense: provide necessary facilities, equipment and people, in the right place at the right time. I also managed budget and time restrictions. 
                         </p>
                         <p>
-                            All things considered a great experience where I learned a lot about the enormous hassle of making movies. 
+                            All things considered a great experience where I've learned a lot about the enormous struggle of making movies. Could defenitly do again! 
                         </p>
-                        <p><a target="_blank" href="https://www.facebook.com/hangmanthemovie"><span id="light_blue"><i class="fa fa-external-link" aria-hidden="true"></i> Imdb</span></a></p>
+                        <p><a target="_blank" href="http://www.imdb.com/title/tt5432722/?ref_=nm_knf_t1"><span id="light_blue"><i class="fa fa-external-link" aria-hidden="true"></i> Imdb</span></a></p>
                     </div>
                 </div>
             </div>
