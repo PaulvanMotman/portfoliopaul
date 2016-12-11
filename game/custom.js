@@ -190,12 +190,12 @@ function generate_clickfunction(i, j) {
     };
 }
 
-for (var i = animations.length -1; i >= 0; i--) {
-    $(selectors[i]).click(generate_clickfunction(i,i))          
-}
-
 
 $('#start').submit(function(e) {
+
+    for (var i = animations.length -1; i >= 0; i--) {
+        $(selectors[i]).click(generate_clickfunction(i,i))          
+    }
 
     e.preventDefault()
 
