@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sweet Animations</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="panel">
+		<form id="start">
+			<label>Username:</label>
+			<input type="text" id="username" required pattern=".{3,8}" title="3 to 8 characters" placeholder="Enter your username">
+			<input id="button" type="submit" value="START">
+		</form>
+		<hr>
+		<p>Your score: <span id="score"></span></p>
+		<hr>
+		<h5>HIGHSCORES:</h5>
+		<div id="highscores"></div>
+		<hr>
+	</div>
+
+	<div id="container">
+		<div id ="a" class="blue move"></div>
+		<div id ="b" class="red move"></div>
+		<div id ="c" class="green move"></div>
+		<div id ="d" class="yellow move"></div>
+		<div id ="h" class="yellow move"></div>
+		<div id ="e" class="blue move"></div>
+		<div id ="f" class="red move"></div>
+		<div id ="g" class="green move"></div>
+		<div id ="k" class="green move"></div>
+		<div id ="l" class="yellow move"></div>
+		<div id ="i" class="blue move"></div>
+		<div id ="j" class="red move"></div>
+		<div id ="n" class="red move"></div>
+		<div id ="o" class="green move"></div>
+		<div id ="p" class="yellow move"></div>
+		<div id ="m" class="blue move"></div>
+	</div>
+
+
+
+	<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64' fill='currentcolor'>
+	  	<path id ="path1" d='M-84 92 L134 100 L12 -80 L-272 6 Z' />
+	</svg>
+	<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64' fill='currentcolor'>
+	  	<path id ="path2" d='M8 250 L96 138 L-358 18 L301 -23 L439 111 L183 -103 L374 -194 L505 -170 L347 -122 L48 -94 L-74 -54 L-290 12 L-138 40 L0 64 L-141 131 L-90 170 Z' />
+	</svg>
+	<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64' fill='currentcolor'>
+			<path id ="path3" d='M-314 274 L460 64 L-360 -70 L64 52 L416 48 L-156 -2 L430 -76 L-338 -150 L446 -206 L362 -206 L458 0 L120 236 L-26 -212 L-368 -24 L138 26 L-240 80 L-366 134 L-92 196 Z' />
+	</svg>
+	<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64' fill='currentcolor'>
+	  	<path id ="path4" d='M84 284 L94 -176 L158 270 L234 148 L-346 33 L400 -105 L264 273 L188 -22 L146 79 L-344 -78 L-48 -102 L-144 -134 L-222 270 L-312 -190 L-270 -124 L442 128 L-332 -8 L-152 47 L-118 100 L-76 160 L-38 218 Z' />
+	</svg>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="anime.min.js"></script>
+<script src="custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+  animation: colorchange 120s infinite alternate; 
+  -webkit-animation: colorchange 120s infinite alternate; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0%   {background: #4CAF50;}
+  25%  {background: #E91E63;}
+  50%  {background: #607D8B;}
+  75%  {background: #009688;}
+  100% {background: #FFC107;}
+}
+
+/* Safari and Chrome - necessary duplicate */
+@-webkit-keyframes colorchange 
+{
+  0%   {background: #4CAF50;}
+  25%  {background: #E91E63;}
+  50%  {background: #607D8B;}
+  75%  {background: #009688;}
+  100% {background: #FFC107;}
+}
+
+
+.blue {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.move {
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	margin: 0px;
+	z-index: 0;
+}
+
+#panel {
+	width: 20vh;
+	height: 50vh;
+	border-style: outset;
+	background-color: white;
+	z-index: 10;
+}
+
+#panel input {
+	width: 18vh;
+}
+
+#container {
+  position: absolute;
+  width: 43.8vh;
+  height: 43.85vh;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -25vh 0 0 -30vh;
+  background: grey;
+}
+
+svg {
+	display: none;
+}
