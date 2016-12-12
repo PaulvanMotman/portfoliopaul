@@ -3,6 +3,8 @@ body {
   -webkit-animation: colorchange 120s infinite alternate; /* Chrome and Safari */
 }
 
+
+
 @keyframes colorchange
 {
   0%   {background: #4CAF50;}
@@ -45,6 +47,7 @@ body {
 	display: inline-block;
 	margin: 0px;
 	z-index: 0;
+  position: relative;
 }
 
 #panel {
@@ -53,10 +56,20 @@ body {
 	border-style: outset;
 	background-color: white;
 	z-index: 10;
+  position: relative;
 }
 
 #panel input {
 	width: 18vh;
+}
+
+#panel h5 {
+  margin-bottom: 0px;
+}
+
+#highscores {
+  overflow-y: auto;
+  height: 21vh;
 }
 
 #container {
